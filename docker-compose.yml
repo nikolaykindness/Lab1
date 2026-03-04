@@ -1,0 +1,7 @@
+services:
+  days-to-new-year-service:
+    build: .
+    container_name: days-to-new-year-app
+    ports:
+      - "4200:4200"
+    restart: unless-stopped
